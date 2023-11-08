@@ -1,0 +1,21 @@
+.banner-background {
+  background: url("/src/assets/images/hero-banner-2.png");
+  width: 100%;
+  aspect-ratio: 414/794;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 700px) {
+  .banner-background {
+    background: url("/src/assets/images/hero-banner.png");
+    aspect-ratio: 1440/695;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1180px) {
+}

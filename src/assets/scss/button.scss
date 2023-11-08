@@ -1,0 +1,25 @@
+@mixin button-basic{
+    border-radius: 57px;
+    padding-inline: 28px;
+}
+
+// @mixin button-layout-1{
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+// }
+
+@mixin button-layout{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+@mixin button-fill{
+    background-color: $primary-color-1;
+    color: $neural-color-00;
+}
+
+@mixin button-line{
+    background-color: transparent;
+    color: $primary-color-1;
+    border: 1.5px solid $primary-color-1;
+}

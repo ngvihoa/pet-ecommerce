@@ -1,0 +1,70 @@
+@mixin xbold{
+    font-weight:800;
+}
+@mixin bold{
+    font-weight:700;
+}
+@mixin semibold{
+    font-weight:600;
+}
+@mixin medium{
+    font-weight:500;
+}
+@mixin regular{
+    font-weight:400;
+}
+
+@mixin heading-x{
+    font-size: 60px;
+    line-height: 68px;
+}
+
+@mixin heading-1{
+    font-size: 46px;
+    line-height: 60px;
+}
+
+@mixin heading-2{
+    font-size: 36px;
+    line-height: 54px;
+}
+
+@mixin heading-3{
+    font-size: 28px;
+    line-height: 38px;
+}
+
+@mixin heading-4{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+@mixin body-1{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@mixin body-2{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin body-3{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin body-4{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+@mixin body-5{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+@mixin body-6{
+    font-size: 8px;
+    line-height: 12px;
+}

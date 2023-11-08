@@ -1,0 +1,90 @@
+.hero-banner {
+  padding-top: 35px;
+
+  &-line1,
+  &-line2 {
+    color: $primary-color-4;
+    text-transform: capitalize;
+  }
+  &-line1 {
+    @include heading-1;
+    @include xbold;
+  }
+  &-line2 {
+    @include heading-3;
+    @include bold;
+  }
+  &-p {
+    @include body-4;
+    @include medium;
+    color: $neural-color-80;
+    margin-top: 12px;
+  }
+  &-button-boundary {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+
+  }
+
+  &-button{
+    @include button-basic;
+    @include button-layout;
+    @include body-2;
+    @include medium;
+  }
+
+  .button-intro{
+    @include button-line;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        svg{
+            font-size: 24px;
+        }
+    }
+  }
+
+  .button-xplr{
+    @include button-fill;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero-banner {
+    &-p {
+      max-width: 480px;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero-banner {
+    padding-top: 80px;
+    &-line1,
+    &-line2 {
+      color: $primary-color-4;
+      text-transform: capitalize;
+    }
+    &-line1 {
+      @include heading-x;
+      @include xbold;
+    }
+    &-line2 {
+      @include heading-1;
+      @include bold;
+      margin-top: 4px;
+    }
+    &-p {
+      @include body-2;
+      @include medium;
+      color: $neural-color-80;
+      margin-top: 24px;
+    }
+    &-button-boundary {
+      margin-top: 32px;
+      gap: 20px;
+    }
+  }
+}
